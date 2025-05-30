@@ -100,7 +100,7 @@ nav > *,
     display: block;
     position: relative;
     transform: translateY(0px);
-    color: #0b3442;
+    color: #fff;
     text-align: center;
     transition: transform 0.5s ease-in-out;
 }
