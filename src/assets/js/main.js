@@ -1,8 +1,7 @@
-import * as THREE from "three";
+import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.180.0/three.module.js";
 
-import { vertexShader, fragmentShader } from "./shaders";
-import { slides } from "./slides";
-import { texture } from "three/tsl";
+import { vertexShader, fragmentShader } from "./shaders.js";
+import { slides } from "./slides.js";
 
 const container = document.querySelector(".container");
 const projectTitle = document.getElementById("project-title");
